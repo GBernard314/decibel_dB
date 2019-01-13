@@ -1,0 +1,21 @@
+  =========== AIDE =============================
+	-SELECT attribut1 attribut2 ... FROM nom_table
+	-SELECT * FROM nom_table
+
+	-CREATE nom_table WITH attribut1 attribut2 attribut3...
+
+	-INSERT INTO nom_table
+	# Suivre les instructions
+
+	-ADD nom_attribut INTO nom_table
+	
+	- UPDATE FROM nom_table WHERE nom_attribut = valeur_testee
+
+	-DELETE FROM nom_table WHERE nom_attribut = valeur_testee
+
+	-DROP TABLE nom_table
+
+	-DROP ATTRIBUTE nom_attribut FROM nom_table
+
+	-QUIT pour quitter
+  =========== FIN ===============================
