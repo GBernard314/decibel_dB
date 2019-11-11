@@ -1,31 +1,44 @@
-# Decibel_SGBD
+# Decibel dB
 
-Decibel_dB; a light approach for embedded system's data storage.
+![GitHub contributors](https://img.shields.io/github/contributors/Azarogue/decibel_dB?color=green&style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/Azarogue/decibel_dB?color=orange&label=C&style=flat-square)
+![text](https://img.shields.io/badge/time%20spent-50%20h-green?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/Azarogue/decibel_dB?label=project%20size&style=flat-square&color=lightgrey)
 
-# To build :
-  make
 
-# Te execute :
-  ./decibel
+Decibel_dB is a light approach for embedded system's data storage, works as database but simpler to understand, only if you are familiar with console !
 
-# =========== HELP ===========
-- SELECT attribute1 attribute2 ... FROM table_name
-- SELECT * FROM table_name
+---
+## Basic commands
 
-- CREATE table_name WITH attribute1 attribute2 attribute3...
 
-- INSERT INTO table_name
--> Suivre les instructions
 
-- ADD nom_attribute INTO table_name
+* **SELECT** attribute1 attribute2 ... **FROM** table_name
+* **SELECT** * **FROM** table_name
+* **CREATE** table_name **WITH** attribute1 attribute2 attribute3...
+* **INSERT INTO** table_name -> Suivre les instructions
+* **ADD** nom_attribute **INTO** table_name
+* **UPDATE** **FROM** table_name **WHERE** nom_attribute = valeur_testee
+* **DELETE** **FROM** table_name **WHERE** nom_attribute = valeur_testee
+* **DROP TABLE** table_name
+* **DROP** attribute nom_attribute **FROM** table_name
+* **QUIT** to leave
 
-- UPDATE FROM table_name WHERE nom_attribute = valeur_testee
+---
 
-- DELETE FROM table_name WHERE nom_attribute = valeur_testee
+### Setup
 
-- DROP TABLE table_name
+First you have to build it :
+```
+make
+```
+That's it, you're good to go.
 
-- DROP attribute nom_attribute FROM table_name
+---
 
-- QUIT to leave
-# =========== END ===========
+### Usage
+```
+./decibel
+```
+
+Now you can enjoy the software at it's fullest (yet).
