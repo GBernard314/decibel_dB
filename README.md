@@ -2,7 +2,7 @@
 
 ![GitHub contributors](https://img.shields.io/github/contributors/Azarogue/decibel_dB?color=green&style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/Azarogue/decibel_dB?color=orange&label=C&style=flat-square)
-![text](https://img.shields.io/badge/time%20spent-50%20h-green?style=flat-square)
+[![time tracker](https://wakatime.com/badge/github/Azarogue/decibel_dB.svg)](https://wakatime.com/badge/github/Azarogue/decibel_dB)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Azarogue/decibel_dB?label=project%20size&style=flat-square&color=lightgrey)
 
 
