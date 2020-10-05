@@ -11,8 +11,8 @@
 int quit;
 char results[BUFF_SIZE];
 
-/* Fonction de comparaison d'une chaine à une autre */
-/* Renvoie vrai (1) si la chaine est equivalente, faux (0) si elle ne l'est pas */
+/* Comparison function between 2 string  */
+/* Return 1 if equals, 0 if not */
 int compare_chaines(char * a, char * b){
   short i = 0;
   short egal;
